@@ -15,16 +15,16 @@ class Form{
         this.title.hide();
     }
     display() {
-        this.title.position(800, 50);
+        this.title.position(400, 50);
         this.title.style('font-size', '70px');
         this.title.style('color', 'skyblue');
 
-        this.input.position(1000,400);
+        this.input.position(450,400);
         this.input.style('width', '192px');
         this.input.style('height', '20px');
         this.input.style('background', 'lavender');
 
-        this.button.position(1000,425);
+        this.button.position(450,425);
         this.button.style('width', '200px');
         this.button.style('height', '40px');
         this.button.style('background', 'lightpink');
